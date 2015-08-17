@@ -1,0 +1,26 @@
+pkgbase = pyscical-git
+	pkgdesc = Python Scientific Calculator
+	pkgver = 67.7c1dd91
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/yuyichao/pyscical
+	arch = i686
+	arch = x86_64
+	license = GPLv3
+	makedepends = git
+	makedepends = cmake
+	makedepends = coreutils
+	depends = python
+	depends = python-scipy
+	depends = python-matplotlib
+	depends = python-cffi
+	depends = python-six
+	depends = gcc-libs
+	optdepends = ipython: for a better instracting shell
+	provides = pyscical
+	conflicts = pyscical
+	options = debug
+	options = strip
+
+pkgname = pyscical-git
+
